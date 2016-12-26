@@ -4,7 +4,7 @@ chrome.webRequest.onBeforeRequest.addListener(function(details) {
     // First, detect whether this is an associate url
     var associateFilter = "tag=";
 
-    var myAssociateTag = "tag=sm11235813-20";
+    var myAssociateTag = "tag=sm1123581306-20";
 
     // Exclusion Filter (borrowed from smilealways)
       var exclusionFilter = "(timetosmile-no-redirect=1)"
